@@ -9,21 +9,7 @@ Após a configuração teste e aprendizado local, migraremos a solução para um
 
 Para o processo de Extract and Load, vamos utilizar a solução do apache-airflow.
 
-*Configuração*
-```bash
-# Localização da pasta home do airflow:
-export AIRFLOW_HOME=caminha_da_pasta
-
-# Instalação do airflow:
-# Seguindo a documentação optei por fazer a instalação via CONSTRAINT.
-AIRFLOW_VERSION=2.7.3
-
-PYTHON_VERSION="$(python --version | cut -d " " -f 2 | cut -d "." -f 1-2)"
-
-CONSTRAINT_URL="https://raw.githubusercontent.com/apache/airflow/constraints-${AIRFLOW_VERSION}/constraints-${PYTHON_VERSION}.txt"
-
-pip install "apache-airflow==${AIRFLOW_VERSION}" --constraint "${CONSTRAINT_URL}
-```
+Após seguir o processo de instalação contido na documentação do airflow, podemos iniciar.
 
 *Inicializando o Airflow*
 

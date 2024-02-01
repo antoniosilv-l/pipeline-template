@@ -1,2 +1,9 @@
+.db
 .venv
 .env
+
+*.env
+*.venv
+*.db
+
+*/logs
