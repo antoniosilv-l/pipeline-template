@@ -1,9 +1,11 @@
 .db
 .venv
 .env
+.pid
 
 *.env
 *.venv
 *.db
+*.pid
 
 */logs
