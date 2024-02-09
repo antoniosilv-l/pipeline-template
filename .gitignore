@@ -9,7 +9,6 @@
 *.pid
 
 */logs
-*/logs/scheduler
 */data
 
 *airflow/dags/__pycache__
